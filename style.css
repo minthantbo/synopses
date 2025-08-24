@@ -1,6 +1,23 @@
 #maintitle{
+    text-align: center;
     background-color: black;
     color: white;
-    height: fit-content;
-    width: fit-content;
+    height: max-content;
+    width: auto;
+}
+.title{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: antiquewhite;
+}
+.image{
+    height: 400px;
+    width: auto;
+}
+.rating{
+    font-style: italic;
+}
+.body-text{
+    text-align: left;
+    font-family: Pyidaungsu;
 }
