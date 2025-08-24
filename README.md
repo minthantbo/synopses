@@ -1,4 +1,6 @@
-# Movies&Series-synopses
-Movies/Series Synopses written by me.
-The quality of this webpage will be improved gradually as I gain knowledge on the subject.
-The contents are written in Myanmar.
+# Movies&Series Synopses
+Movies/Series Synopses written by me.<br>
+The quality of this webpage will be improved gradually as I gain knowledge on the subject.<br>
+The contents are written in Burmese Language.<br>
+Live preview on [Synopses](https://minthantbo.github.io/synopses/index.html).
+
