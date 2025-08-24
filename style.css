@@ -10,6 +10,10 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: antiquewhite;
 }
+.home{
+    background-color: black;
+    color: white;
+}
 .image{
     height: 400px;
     width: auto;
@@ -20,4 +24,7 @@
 .body-text{
     text-align: left;
     font-family: Pyidaungsu;
+}
+div{
+    text-align: center;
 }
