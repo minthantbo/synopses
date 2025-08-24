@@ -1,2 +1,2 @@
-# movies-series-synopses
+# Movies&Series-synopses
 Movies/Series Synopses written by me.
