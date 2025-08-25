@@ -10,12 +10,20 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: antiquewhite;
 }
+
+.label{
+     text-decoration: none;
+     background-color: white;
+     border-radius: 8px;
+}
+
 .home{
     background-color: black;
     color: white;
     height: 48px;
     width: 80px;
 }
+
 .image{
     height: 400px;
     width: auto;
