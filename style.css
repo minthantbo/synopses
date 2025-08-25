@@ -11,6 +11,10 @@
     background-color: antiquewhite;
 }
 
+section{
+     display: flex;
+}
+
 .label{
      text-decoration: none;
      font-weight: bold;
