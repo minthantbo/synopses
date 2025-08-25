@@ -13,6 +13,8 @@
 .home{
     background-color: black;
     color: white;
+    height: 48px;
+    width: 48px;
 }
 .image{
     height: 400px;
