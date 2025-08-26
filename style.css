@@ -17,6 +17,7 @@
 .image{
     height: 400px;
     width: auto;
+    margin: 10px;
 }
 .rating{
     font-style: italic;
