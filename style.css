@@ -5,26 +5,26 @@
     height: max-content;
     width: auto;
 }
+
+a{
+    text-decoration: none;
+}
 .title{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: antiquewhite;
 }
 
-section{
-     display: flex;
+.cataloguebox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-article{
-    
+.individualindexbox{
+    display: flex;
+    flex-direction: column;
 }
-.label{
-     text-decoration: none;
-     font-weight: bold;
-     text-align: center;
-     
-}
-
 .home{
     background-color: black;
     color: white;
@@ -35,8 +35,16 @@ article{
 .image{
     height: 400px;
     width: auto;
-    border: 3px solid black;
-    margin: 20px;
+}
+
+.labelcontainer{
+    text-align: center;
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.label{
+    color: #242222;
 }
 .rating{
     font-style: italic;
@@ -45,6 +53,4 @@ article{
     text-align: left;
     font-family: Pyidaungsu;
 }
-div{
-    text-align: center;
-}
+
