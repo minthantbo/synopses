@@ -1,29 +1,10 @@
+
+/* Index */
 #maintitle{
     text-align: center;
     background-color: black;
     color: white;
-    height: max-content;
     width: auto;
-}
-
-a{
-    text-decoration: none;
-}
-.title{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: antiquewhite;
-}
-
-.cataloguebox{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.individualindexbox{
-    display: flex;
-    flex-direction: column;
 }
 .home{
     background-color: black;
@@ -31,21 +12,31 @@ a{
     height: 48px;
     width: 80px;
 }
-
+.index-box{
+    display: flex;
+    justify-content: space-around;
+}
 .image{
     height: 400px;
     width: auto;
 }
-
-.labelcontainer{
+a{
+    text-decoration: none;
     text-align: center;
-    background-color: antiquewhite;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    display: block;
+    margin: 0 auto;
+    border-right: 4px solid black;
+    border-bottom: 4px solid gray;
 }
 
-.label{
-    color: #242222;
+.cinema{
+    /* background-color:blue; */
+    padding: 20px;
 }
+
+/* Content Pages */
 .rating{
     font-style: italic;
 }
