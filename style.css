@@ -3,10 +3,13 @@
 }
 
 #maintitle{
-    color: gray;
-    background-color: bisque;  
+    color: rgb(68, 63, 63);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    width: max-content;
+    height: auto;
+    margin: 0 auto;
+    padding: 4%;
 }
 .container{
     display: flex;
@@ -14,6 +17,7 @@
 }
 body{
     background-color: gainsboro;
+    font-size: 16px;
 }
 img{
     height: 500px;
@@ -25,7 +29,7 @@ a{
 }
 
 .item{
-    /* border: 5px solid brown; */
+    border: 5px solid gray;
 }
 
 .container.index{
@@ -34,7 +38,7 @@ a{
 }
 .container.item{
     /* border: 5px solid blue; */
-    background-color: peachpuff;
+    background-color: rgb(167, 166, 166);
     flex: none;
     flex-direction: column;
     align-items: center;
@@ -64,8 +68,15 @@ a{
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
 }
-.synopsis{
+.container .synopsis{
+    border: 3px solid rgb(218, 189, 155);
     font-family: pyidaungsu;
-    padding: 20px;
-
+    font-size: 20px;
+    margin: 5% 20% 5% 20%;
+    padding: 3% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+    text-align: justify;
 }
