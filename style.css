@@ -69,7 +69,7 @@ a{
     font-style: italic;
 }
 .container .synopsis{
-    border: 3px solid rgb(218, 189, 155);
+    border: 3px solid rgba(82, 81, 81, 0.507);
     font-family: pyidaungsu;
     font-size: 20px;
     margin: 5% 20% 5% 20%;
@@ -77,6 +77,6 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: bisque;
+    background-color: rgba(128, 128, 128, 0.315);
     text-align: justify;
 }
