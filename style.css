@@ -1,5 +1,5 @@
 *{
-    
+    box-sizing: border-box;
 }
 
 #maintitle{
@@ -16,8 +16,8 @@ body{
     background-color: gainsboro;
 }
 img{
-    height: 900px;
-    width: 600px;
+    height: 500px;
+    width: auto;
     border: 3px solid gray;
 }
 a{
@@ -25,14 +25,16 @@ a{
 }
 .container.index{
     /* border: 10px solid red; */
-    justify-content: center;
+    justify-content: flex-start;
 }
 .container.item{
     /* border: 5px solid blue; */
+    background-color: peachpuff;
     flex: none;
     flex-direction: column;
     align-items: center;
-    flex: ;
+    padding: 10px;
+    margin: 20px;
 }
 .item{
     /* border: 5px solid brown; */
@@ -46,7 +48,7 @@ a{
 
     padding: 4px;
     margin: 10px;
-    width: max-content;
+    width: 200px;
 }
 .ratings{
     font-family: 'Times New Roman', Times, serif;
