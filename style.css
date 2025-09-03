@@ -1,7 +1,11 @@
 *{
     box-sizing: border-box;
 }
-
+.home{
+    margin: 0 auto;
+    border-right: 3px solid black;
+    border-bottom: 3px solid gray;
+}
 #maintitle{
     color: rgb(68, 63, 63);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -9,11 +13,11 @@
     width: max-content;
     height: auto;
     margin: 0 auto;
-    padding: 4%;
 }
 .container{
     display: flex;
     flex-wrap: wrap;
+    /* border: 4px solid red; */
 }
 body{
     background-color: gainsboro;
@@ -33,7 +37,7 @@ a{
 }
 
 .container.index{
-    /* border: 10px solid red; */
+    /* border: 5px solid blueviolet; */
     justify-content: flex-start;
 }
 .container.item{
@@ -48,9 +52,10 @@ a{
 .container.synopsis{
     /* border: 5px solid black; */
     margin: 5px;
-    flex-direction: column;
-    align-items: center;
-    flex: none;
+    flex-direction: row;
+    /* align-items: center; */
+    flex: 1;
+    
     /* width: 800px; */
 }
 
@@ -69,14 +74,24 @@ a{
     font-style: italic;
 }
 .container .synopsis{
-    border: 3px solid rgba(82, 81, 81, 0.507);
+    /* border: 3px solid green; */
     font-family: pyidaungsu;
     font-size: 20px;
-    margin: 5% 20% 5% 20%;
+    margin: 0 15% 5% 15%;
     padding: 3% 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgba(128, 128, 128, 0.315);
     text-align: justify;
+    min-width: 0;
+    flex: 1;
+}
+.synopsis .index{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: none;
+    
+    /* margin: 0 auto; */
 }
